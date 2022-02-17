@@ -1,4 +1,4 @@
-## 3.1. Comments Do Not Make Up for Bad Code
+## 3.1. Comments Do Not Make Up for Bad Code + Explaining Yourself In Code
 
 The code below is disorganized
 ```javascript

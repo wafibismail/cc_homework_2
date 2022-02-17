@@ -1,4 +1,4 @@
-## 3.1. Solution: Comments Do Not Make Up for Bad Code
+## 3.1. Solution: Comments Do Not Make Up for Bad Code + Explaining Yourself In Code
 
 ```javascript
 let hypotaneous;
