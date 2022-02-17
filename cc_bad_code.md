@@ -8,7 +8,7 @@ where y is derived from tan-1(opposite_2/adjacent_2),
 where opposite_2 is this.height-boxHeight, and adjacent_2 is this.width*/
 let hypotaneous = boxWidth/(Math.sin(Math.PI/2 - Math.atan((this.height-boxHeight)/this.width)));
 ```
-and organizing it would be a more appropriate form of clarifying its content rather than putting the explanation in comment form.
+Organizing the code itself would be a more appropriate form of clarifying its content rather than putting the explanation in comment form.
 
 ## 4.2 Good Comments
 
@@ -29,16 +29,16 @@ while(1){
     i = (i+1) % (sizeof(array)/sizeof(int));
 }
 ```
-In such case adding an explanation via. comment would be appropriate.
-In addition, a warning too, of the possibly undesired consequences of running a piece would be of help.
+In such cases adding a comment to explain it would be appropriate.
+In addition, a warning too, of the possibly undesired consequences of running a piece would also be of help.
 
 ### TODO Comments
 
-Some codes may only be required temporarily
+The programmer may have something more to do in regards to a piece of code, e.g. remove it once something has been implemented
 ```html
 <div id='deprecated-feature-container-0'></div>
 ```
-In such cases, it is best to state it as such.
+In such cases, it is best to explain it in a comment.
 
 ### Amplification
 
